@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "foddie-app-n",
+    "name": "Foodies App",
     "slug": "foddie-app-n",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#24180f",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,16 +16,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "ios.buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.introducer.foddieapp"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.introducer.foddieapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "116b2af8-a9f7-4746-a267-473dd74f3bed"
+      }
     }
   }
 }
